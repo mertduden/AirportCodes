@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31313.79
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AirportCodes", "AirportCodes.csproj", "{A71AF2FA-6266-4B25-9954-36ADD49D1EF4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AirportCodes", "AirportCodes.csproj", "{A71AF2FA-6266-4B25-9954-36ADD49D1EF4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AirportLib", "..\AirportLib\AirportLib.csproj", "{5CECB542-0A27-40BF-94EC-A67CAAB3BF7C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{A71AF2FA-6266-4B25-9954-36ADD49D1EF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A71AF2FA-6266-4B25-9954-36ADD49D1EF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A71AF2FA-6266-4B25-9954-36ADD49D1EF4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5CECB542-0A27-40BF-94EC-A67CAAB3BF7C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5CECB542-0A27-40BF-94EC-A67CAAB3BF7C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5CECB542-0A27-40BF-94EC-A67CAAB3BF7C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5CECB542-0A27-40BF-94EC-A67CAAB3BF7C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

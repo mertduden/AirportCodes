@@ -14,10 +14,10 @@ namespace AirportCodes
 
             // Read each line of the file into a string array. Each element
             // of the array is one line of the file.
-            string[] cities = System.IO.File.ReadAllLines(Path.Combine(Environment.CurrentDirectory, @"Data\", "cities.txt"));
-            string[] icao = System.IO.File.ReadAllLines(Path.Combine(Environment.CurrentDirectory, @"Data\", "icao.txt"));
-            string[] iata = System.IO.File.ReadAllLines(Path.Combine(Environment.CurrentDirectory, @"Data\", "iata.txt"));
-            string[] names = System.IO.File.ReadAllLines(Path.Combine(Environment.CurrentDirectory, @"Data\", "names.txt"));
+            string[] cities = System.IO.File.ReadAllLines(Path.Combine(Environment.CurrentDirectory, @"Data/", "cities.txt"));
+            string[] icao = System.IO.File.ReadAllLines(Path.Combine(Environment.CurrentDirectory, @"Data/", "icao.txt"));
+            string[] iata = System.IO.File.ReadAllLines(Path.Combine(Environment.CurrentDirectory, @"Data/", "iata.txt"));
+            string[] names = System.IO.File.ReadAllLines(Path.Combine(Environment.CurrentDirectory, @"Data/", "names.txt"));
 
             Console.WriteLine("Data retreived.");
             Console.WriteLine("Enter an IATA or ICAO code below: ");
