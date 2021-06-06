@@ -10,6 +10,10 @@
     <None Include="bin\Debug\net5.0\Data\iata.txt" />
     <None Include="bin\Debug\net5.0\Data\icao.txt" />
     <None Include="bin\Debug\net5.0\Data\names.txt" />
+    <None Include="bin\Release\net5.0\Data\cities.txt" />
+    <None Include="bin\Release\net5.0\Data\iata.txt" />
+    <None Include="bin\Release\net5.0\Data\icao.txt" />
+    <None Include="bin\Release\net5.0\Data\names.txt" />
   </ItemGroup>
 
 </Project>
